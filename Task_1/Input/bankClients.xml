@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBankClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BankClient>
+    <FirstName>Vitaliy</FirstName>
+    <LastName>Sidorov</LastName>
+    <MiddleName>Sergeevich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>667</Amount>
+        <Date>2018-03-22T19:09:40.4043502+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>87</Amount>
+        <Date>2018-03-24T06:36:45.0633236+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>93</Amount>
+        <Date>2018-03-25T13:07:41.2238962+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>383</Amount>
+        <Date>2018-03-27T12:06:50.0474806+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>894</Amount>
+        <Date>2018-03-27T14:33:54.4092769+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>932</Amount>
+        <Date>2018-03-28T16:36:09.5048797+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>531</Amount>
+        <Date>2018-03-28T21:11:55.1283195+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>967</Amount>
+        <Date>2018-03-30T12:40:44.7097909+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>648</Amount>
+        <Date>2018-03-31T12:04:49.2525614+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>414</Amount>
+        <Date>2018-03-31T13:07:55.3046084+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>931</Amount>
+        <Date>2018-04-07T06:43:28.2970247+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>611</Amount>
+        <Date>2018-04-07T20:46:47.095742+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>329</Amount>
+        <Date>2018-04-08T05:56:01.4751684+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>246</Amount>
+        <Date>2018-04-08T07:11:57.0284131+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>656</Amount>
+        <Date>2018-04-08T08:19:48.979171+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>785</Amount>
+        <Date>2018-04-08T12:18:19.4970505+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>635</Amount>
+        <Date>2018-04-10T05:30:52.7026634+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>88</Amount>
+        <Date>2018-04-12T00:36:14.1978603+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>352</Amount>
+        <Date>2018-04-13T03:29:28.1555292+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>664</Amount>
+        <Date>2018-04-14T06:15:49.7462131+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>426</Amount>
+        <Date>2018-04-15T09:34:44.766737+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>830</Amount>
+        <Date>2018-04-18T19:42:58.0667807+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>70</Amount>
+        <Date>2018-04-20T07:18:51.4005773+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>196</Amount>
+        <Date>2018-04-21T11:43:31.067983+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>281</Amount>
+        <Date>2018-04-21T14:52:21.9139523+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>526</Amount>
+        <Date>2018-04-23T23:23:26.0738546+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>495</Amount>
+        <Date>2018-04-24T07:34:29.7182+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>577</Amount>
+        <Date>2018-04-24T14:18:05.0001031+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>562</Amount>
+        <Date>2018-04-26T19:52:05.7177231+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>557</Amount>
+        <Date>2018-04-29T14:24:31.5519796+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>488</Amount>
+        <Date>2018-05-01T22:52:54.2157954+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>686</Amount>
+        <Date>2018-05-02T02:46:18.0625561+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Petr</FirstName>
+    <LastName>Sidorov</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>438</Amount>
+        <Date>2018-03-24T15:46:32.6345233+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>425</Amount>
+        <Date>2018-03-27T04:32:57.6702934+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>938</Amount>
+        <Date>2018-03-27T17:20:44.8703334+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>890</Amount>
+        <Date>2018-03-28T04:26:40.5384423+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>654</Amount>
+        <Date>2018-03-28T14:34:39.2884944+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>706</Amount>
+        <Date>2018-04-01T19:08:18.4256357+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>639</Amount>
+        <Date>2018-04-03T04:35:04.7877694+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>37</Amount>
+        <Date>2018-04-04T10:31:09.8784118+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>193</Amount>
+        <Date>2018-04-04T21:58:58.2074762+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>773</Amount>
+        <Date>2018-04-06T10:26:34.4419656+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>868</Amount>
+        <Date>2018-04-08T07:15:07.0814559+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>319</Amount>
+        <Date>2018-04-08T07:49:26.010945+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>806</Amount>
+        <Date>2018-04-08T08:38:32.8400642+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>498</Amount>
+        <Date>2018-04-08T09:24:38.2243417+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>955</Amount>
+        <Date>2018-04-09T20:03:03.0028326+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>934</Amount>
+        <Date>2018-04-09T20:57:47.8809331+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>810</Amount>
+        <Date>2018-04-09T21:17:11.4283944+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>322</Amount>
+        <Date>2018-04-11T02:14:57.0366687+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>154</Amount>
+        <Date>2018-04-11T05:48:08.5466531+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>181</Amount>
+        <Date>2018-04-12T06:49:24.6539735+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>434</Amount>
+        <Date>2018-04-13T23:08:40.5025964+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>582</Amount>
+        <Date>2018-04-15T11:48:44.1487634+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>334</Amount>
+        <Date>2018-04-15T18:30:31.9784229+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>206</Amount>
+        <Date>2018-04-17T23:40:37.8773512+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>61</Amount>
+        <Date>2018-04-18T01:43:58.775172+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>304</Amount>
+        <Date>2018-04-18T08:28:08.4223282+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>955</Amount>
+        <Date>2018-04-21T13:51:12.6639272+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>421</Amount>
+        <Date>2018-04-22T18:32:52.6008346+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>854</Amount>
+        <Date>2018-04-24T22:21:05.4545927+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>310</Amount>
+        <Date>2018-04-26T09:05:21.6830786+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>572</Amount>
+        <Date>2018-04-27T03:03:25.3851678+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>74</Amount>
+        <Date>2018-04-27T21:40:02.4677498+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>654</Amount>
+        <Date>2018-04-28T06:14:58.2803084+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>207</Amount>
+        <Date>2018-04-29T14:48:23.8340928+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>547</Amount>
+        <Date>2018-04-30T19:38:08.6983239+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>432</Amount>
+        <Date>2018-05-02T00:50:32.9291112+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>98</Amount>
+        <Date>2018-05-02T12:48:08.9705477+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>26</Amount>
+        <Date>2018-05-03T09:40:36.0286822+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Anton</FirstName>
+    <LastName>Ignatov</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>183</Amount>
+        <Date>2018-03-25T09:25:54.46734+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>882</Amount>
+        <Date>2018-03-26T19:48:39.6360406+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>220</Amount>
+        <Date>2018-04-01T06:16:33.2929494+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>813</Amount>
+        <Date>2018-04-03T09:10:19.4325802+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>665</Amount>
+        <Date>2018-04-05T12:55:23.5649318+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>618</Amount>
+        <Date>2018-04-06T21:34:21.9256418+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>951</Amount>
+        <Date>2018-04-07T14:14:53.6270915+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>542</Amount>
+        <Date>2018-04-09T13:15:19.7767502+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>856</Amount>
+        <Date>2018-04-12T10:59:50.7769037+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>803</Amount>
+        <Date>2018-04-14T01:33:54.8236296+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>854</Amount>
+        <Date>2018-04-15T14:11:28.6280022+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>473</Amount>
+        <Date>2018-04-23T07:12:17.6365089+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>363</Amount>
+        <Date>2018-04-23T07:50:55.9124087+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>498</Amount>
+        <Date>2018-04-24T01:42:55.4230714+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>350</Amount>
+        <Date>2018-04-27T10:59:04.3611023+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>996</Amount>
+        <Date>2018-04-27T18:57:18.5666114+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>148</Amount>
+        <Date>2018-04-27T22:31:29.9730724+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>115</Amount>
+        <Date>2018-04-30T01:18:54.799382+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>768</Amount>
+        <Date>2018-05-01T14:49:25.5591252+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Alexander</FirstName>
+    <LastName>Mykolayenko</LastName>
+    <MiddleName>Ivanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>291</Amount>
+        <Date>2018-03-08T06:45:41.1118345+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>280</Amount>
+        <Date>2018-03-09T18:06:11.8762232+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>221</Amount>
+        <Date>2018-03-09T23:06:05.2680732+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>530</Amount>
+        <Date>2018-03-10T16:22:23.9386873+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>646</Amount>
+        <Date>2018-03-10T23:01:11.1740335+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>756</Amount>
+        <Date>2018-03-12T02:43:39.5238062+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>544</Amount>
+        <Date>2018-03-14T14:19:49.0227133+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>762</Amount>
+        <Date>2018-03-14T20:47:46.3810773+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>725</Amount>
+        <Date>2018-03-15T07:05:31.7853607+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>981</Amount>
+        <Date>2018-03-17T17:27:51.0053386+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>879</Amount>
+        <Date>2018-03-19T21:16:40.1324868+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>884</Amount>
+        <Date>2018-03-22T03:05:28.2332643+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>814</Amount>
+        <Date>2018-03-22T23:30:42.6830738+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>850</Amount>
+        <Date>2018-03-24T14:39:45.1823896+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>175</Amount>
+        <Date>2018-03-24T21:36:44.3973294+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>966</Amount>
+        <Date>2018-03-24T23:34:21.3391399+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>190</Amount>
+        <Date>2018-03-26T07:00:18.7773218+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>560</Amount>
+        <Date>2018-03-27T02:07:46.9229282+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>608</Amount>
+        <Date>2018-03-30T07:00:57.3420694+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>686</Amount>
+        <Date>2018-04-02T06:55:30.441368+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>873</Amount>
+        <Date>2018-04-04T22:04:39.6681871+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>965</Amount>
+        <Date>2018-04-06T19:01:27.2782378+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>185</Amount>
+        <Date>2018-04-08T09:39:28.6651369+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>247</Amount>
+        <Date>2018-04-09T11:28:59.5815408+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>722</Amount>
+        <Date>2018-04-09T11:40:59.4352106+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>424</Amount>
+        <Date>2018-04-10T21:27:35.2971492+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>517</Amount>
+        <Date>2018-04-12T03:12:22.974648+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>766</Amount>
+        <Date>2018-04-15T00:38:09.4162658+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>305</Amount>
+        <Date>2018-04-18T20:20:49.8030415+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>694</Amount>
+        <Date>2018-04-20T01:12:03.0863867+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>509</Amount>
+        <Date>2018-04-25T07:09:06.3556312+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>580</Amount>
+        <Date>2018-04-28T15:36:55.3313578+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>94</Amount>
+        <Date>2018-04-28T21:21:41.2855508+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>717</Amount>
+        <Date>2018-04-29T14:18:22.0385944+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>646</Amount>
+        <Date>2018-05-01T05:37:07.7550247+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>174</Amount>
+        <Date>2018-05-01T07:42:30.48067+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Bogdan</FirstName>
+    <LastName>Sergeev</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>116</Amount>
+        <Date>2018-03-11T07:21:48.9278382+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>224</Amount>
+        <Date>2018-03-12T14:47:46.0299929+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>21</Amount>
+        <Date>2018-03-16T04:00:28.3983469+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>232</Amount>
+        <Date>2018-03-22T17:44:06.2099872+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>787</Amount>
+        <Date>2018-03-23T03:55:38.1886555+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>723</Amount>
+        <Date>2018-03-24T02:04:37.7105567+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>310</Amount>
+        <Date>2018-03-27T08:51:34.4096334+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>273</Amount>
+        <Date>2018-03-27T09:56:22.2712267+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>426</Amount>
+        <Date>2018-03-27T18:45:03.7414276+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>328</Amount>
+        <Date>2018-03-28T23:50:45.2276681+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>640</Amount>
+        <Date>2018-04-04T12:51:39.9922558+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>33</Amount>
+        <Date>2018-04-05T02:21:14.6613355+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>983</Amount>
+        <Date>2018-04-05T22:20:56.1101655+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>485</Amount>
+        <Date>2018-04-06T12:40:39.7220086+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>767</Amount>
+        <Date>2018-04-08T19:55:28.3690883+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>760</Amount>
+        <Date>2018-04-15T00:36:16.0689023+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>958</Amount>
+        <Date>2018-04-17T22:39:41.3219264+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>786</Amount>
+        <Date>2018-04-19T13:21:56.8477007+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>211</Amount>
+        <Date>2018-04-20T03:34:10.4598118+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>632</Amount>
+        <Date>2018-04-21T16:27:46.3731486+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>592</Amount>
+        <Date>2018-04-23T08:00:45.3315414+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>28</Amount>
+        <Date>2018-04-23T10:39:09.3647269+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>340</Amount>
+        <Date>2018-04-28T20:24:18.0767057+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>79</Amount>
+        <Date>2018-04-30T13:56:05.6721147+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>780</Amount>
+        <Date>2018-05-01T01:29:25.5039477+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>596</Amount>
+        <Date>2018-05-02T12:11:22.540873+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Alexander</FirstName>
+    <LastName>Ivanov</LastName>
+    <MiddleName>Alexandrovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>588</Amount>
+        <Date>2018-03-24T03:53:04.8384512+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>118</Amount>
+        <Date>2018-03-24T16:03:04.2748903+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>73</Amount>
+        <Date>2018-03-26T03:15:16.9794174+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>642</Amount>
+        <Date>2018-03-27T15:19:04.0512295+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>242</Amount>
+        <Date>2018-03-28T11:36:13.940561+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>754</Amount>
+        <Date>2018-03-28T17:55:09.2319394+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>843</Amount>
+        <Date>2018-03-28T23:17:49.1141452+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>666</Amount>
+        <Date>2018-03-31T22:32:14.2041743+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>617</Amount>
+        <Date>2018-04-02T00:34:05.7372816+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>975</Amount>
+        <Date>2018-04-02T12:04:26.2364722+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>363</Amount>
+        <Date>2018-04-02T14:19:35.9924883+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>724</Amount>
+        <Date>2018-04-03T03:10:49.407141+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>343</Amount>
+        <Date>2018-04-04T15:43:16.6336551+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>604</Amount>
+        <Date>2018-04-04T18:41:20.2750476+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>819</Amount>
+        <Date>2018-04-10T09:02:03.7374211+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>771</Amount>
+        <Date>2018-04-11T00:44:21.2348487+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>858</Amount>
+        <Date>2018-04-11T22:34:14.9449397+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>588</Amount>
+        <Date>2018-04-12T15:07:59.2794176+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>637</Amount>
+        <Date>2018-04-13T19:03:36.651143+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>491</Amount>
+        <Date>2018-04-14T21:47:18.1739765+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>382</Amount>
+        <Date>2018-04-16T23:17:39.9663372+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>772</Amount>
+        <Date>2018-04-17T23:48:40.7823161+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>248</Amount>
+        <Date>2018-04-19T14:21:33.8010628+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>712</Amount>
+        <Date>2018-04-20T19:31:04.4108645+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>754</Amount>
+        <Date>2018-04-21T11:40:16.7650739+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>661</Amount>
+        <Date>2018-04-23T18:15:57.7842907+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>83</Amount>
+        <Date>2018-04-26T13:57:51.9781163+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>682</Amount>
+        <Date>2018-04-27T08:19:56.9160018+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>929</Amount>
+        <Date>2018-04-29T02:00:50.6585997+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>485</Amount>
+        <Date>2018-04-30T09:14:11.4029978+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>426</Amount>
+        <Date>2018-04-30T23:35:59.6495301+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>629</Amount>
+        <Date>2018-05-01T12:19:52.2592511+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>866</Amount>
+        <Date>2018-05-02T07:06:15.4844196+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>314</Amount>
+        <Date>2018-05-03T19:23:28.4728022+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Vitaliy</FirstName>
+    <LastName>Mykolayenko</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>581</Amount>
+        <Date>2018-03-21T18:19:10.0730084+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>691</Amount>
+        <Date>2018-03-22T11:44:47.5941823+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>180</Amount>
+        <Date>2018-03-25T20:49:43.3822935+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>737</Amount>
+        <Date>2018-03-26T21:27:02.3542178+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>151</Amount>
+        <Date>2018-03-27T03:46:51.1621838+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>569</Amount>
+        <Date>2018-03-28T10:51:06.3686032+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>733</Amount>
+        <Date>2018-03-31T18:22:10.64978+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>858</Amount>
+        <Date>2018-04-07T22:09:05.5460048+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>49</Amount>
+        <Date>2018-04-10T02:31:24.6835752+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>718</Amount>
+        <Date>2018-04-12T05:26:04.1212472+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>956</Amount>
+        <Date>2018-04-13T22:32:47.1841604+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>21</Amount>
+        <Date>2018-04-14T17:33:56.0566679+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>743</Amount>
+        <Date>2018-04-15T04:11:53.3941892+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>340</Amount>
+        <Date>2018-04-16T19:55:16.5178551+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>374</Amount>
+        <Date>2018-04-23T00:30:11.4213527+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>815</Amount>
+        <Date>2018-04-26T04:49:52.3925309+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>785</Amount>
+        <Date>2018-04-26T10:53:38.6624061+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>109</Amount>
+        <Date>2018-04-27T08:06:40.0291148+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>537</Amount>
+        <Date>2018-04-30T17:18:18.9564597+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>838</Amount>
+        <Date>2018-05-02T20:10:04.4860827+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Sergey</FirstName>
+    <LastName>Ivanov</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>518</Amount>
+        <Date>2018-03-10T04:28:49.4160374+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>480</Amount>
+        <Date>2018-03-13T18:19:46.3419728+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>965</Amount>
+        <Date>2018-03-14T08:19:16.7959619+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>131</Amount>
+        <Date>2018-03-14T11:35:30.43788+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>247</Amount>
+        <Date>2018-03-18T21:25:12.612065+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>916</Amount>
+        <Date>2018-03-19T12:35:06.3512156+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>804</Amount>
+        <Date>2018-03-25T06:53:03.0615196+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>105</Amount>
+        <Date>2018-03-25T21:28:31.2350473+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>938</Amount>
+        <Date>2018-03-30T12:53:03.5610643+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>74</Amount>
+        <Date>2018-03-31T02:35:13.6457211+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>648</Amount>
+        <Date>2018-04-04T17:35:59.9028279+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>963</Amount>
+        <Date>2018-04-05T05:21:05.0495239+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>592</Amount>
+        <Date>2018-04-05T07:50:33.625183+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>518</Amount>
+        <Date>2018-04-05T10:29:08.4042366+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>654</Amount>
+        <Date>2018-04-05T17:25:09.403962+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>783</Amount>
+        <Date>2018-04-06T22:40:25.3329933+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>320</Amount>
+        <Date>2018-04-07T03:03:04.2982574+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>925</Amount>
+        <Date>2018-04-09T08:01:59.9070372+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>557</Amount>
+        <Date>2018-04-11T11:21:05.8768479+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>395</Amount>
+        <Date>2018-04-12T04:12:15.9634894+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>698</Amount>
+        <Date>2018-04-12T18:12:11.7620605+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>865</Amount>
+        <Date>2018-04-14T11:07:46.10955+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>589</Amount>
+        <Date>2018-04-15T01:33:05.5454821+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>107</Amount>
+        <Date>2018-04-17T10:45:46.7011759+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>392</Amount>
+        <Date>2018-04-19T17:45:14.3651597+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>91</Amount>
+        <Date>2018-04-25T12:10:38.3644882+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>708</Amount>
+        <Date>2018-04-29T03:33:20.4768602+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>442</Amount>
+        <Date>2018-05-02T09:44:33.1118462+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>41</Amount>
+        <Date>2018-05-03T12:51:51.284691+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Bogdan</FirstName>
+    <LastName>Sergeev</LastName>
+    <MiddleName>Sergeevich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>246</Amount>
+        <Date>2018-03-18T08:10:55.0867136+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>700</Amount>
+        <Date>2018-03-19T18:50:41.7112301+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>755</Amount>
+        <Date>2018-03-20T12:42:55.8416083+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>197</Amount>
+        <Date>2018-03-21T00:23:41.9251348+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>961</Amount>
+        <Date>2018-03-22T14:00:54.3389056+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>810</Amount>
+        <Date>2018-03-23T07:34:35.5860418+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>196</Amount>
+        <Date>2018-03-25T00:33:09.8993225+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>706</Amount>
+        <Date>2018-03-25T10:32:56.9527053+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>101</Amount>
+        <Date>2018-03-25T11:21:46.3916955+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>95</Amount>
+        <Date>2018-03-26T00:17:15.8991858+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>334</Amount>
+        <Date>2018-03-27T19:11:46.187977+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>748</Amount>
+        <Date>2018-03-27T21:16:52.174908+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>665</Amount>
+        <Date>2018-03-31T07:37:57.9252783+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>475</Amount>
+        <Date>2018-03-31T12:49:43.6271657+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>428</Amount>
+        <Date>2018-03-31T23:39:36.2532638+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>975</Amount>
+        <Date>2018-04-01T09:21:03.2043853+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>989</Amount>
+        <Date>2018-04-03T02:33:58.7050291+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>438</Amount>
+        <Date>2018-04-04T07:06:03.9177151+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>842</Amount>
+        <Date>2018-04-05T08:01:14.291151+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>706</Amount>
+        <Date>2018-04-07T11:34:04.559931+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>411</Amount>
+        <Date>2018-04-08T20:27:31.2040026+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>178</Amount>
+        <Date>2018-04-14T02:33:21.8206184+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>237</Amount>
+        <Date>2018-04-15T23:57:49.2580379+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>258</Amount>
+        <Date>2018-04-16T04:03:01.152095+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>686</Amount>
+        <Date>2018-04-16T07:03:17.3355165+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>912</Amount>
+        <Date>2018-04-16T09:47:23.0871867+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>336</Amount>
+        <Date>2018-04-16T10:59:35.4236577+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>266</Amount>
+        <Date>2018-04-16T21:32:27.5605811+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>917</Amount>
+        <Date>2018-04-17T06:24:56.9737421+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>199</Amount>
+        <Date>2018-04-18T13:20:15.0824107+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>373</Amount>
+        <Date>2018-04-18T22:24:57.0581244+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>779</Amount>
+        <Date>2018-04-18T22:30:43.6857355+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>780</Amount>
+        <Date>2018-04-20T04:29:01.8845676+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>79</Amount>
+        <Date>2018-04-20T20:55:47.6610661+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>930</Amount>
+        <Date>2018-04-21T09:35:08.6636905+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>527</Amount>
+        <Date>2018-04-23T21:20:18.3148078+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>626</Amount>
+        <Date>2018-04-25T12:06:13.6320676+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>886</Amount>
+        <Date>2018-04-25T18:00:19.3662058+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>206</Amount>
+        <Date>2018-04-26T10:31:31.5351038+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>824</Amount>
+        <Date>2018-04-26T12:25:53.2255895+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>127</Amount>
+        <Date>2018-04-28T01:53:18.631359+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>615</Amount>
+        <Date>2018-04-28T17:43:01.6082856+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>605</Amount>
+        <Date>2018-04-29T22:56:38.3047832+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>715</Amount>
+        <Date>2018-04-30T04:48:50.4169668+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>134</Amount>
+        <Date>2018-05-01T19:29:18.4946013+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>429</Amount>
+        <Date>2018-05-03T11:31:58.0358536+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Petr</FirstName>
+    <LastName>Vlasov</LastName>
+    <MiddleName>Antonovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>509</Amount>
+        <Date>2018-03-07T00:46:08.4388136+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>390</Amount>
+        <Date>2018-03-08T20:56:20.8608458+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>791</Amount>
+        <Date>2018-03-10T00:29:38.3557103+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>862</Amount>
+        <Date>2018-03-12T03:36:13.981572+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>65</Amount>
+        <Date>2018-03-13T10:17:45.7646478+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>129</Amount>
+        <Date>2018-03-19T21:44:13.5030006+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>395</Amount>
+        <Date>2018-03-21T10:23:03.7164941+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>157</Amount>
+        <Date>2018-03-22T00:47:08.1821227+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>350</Amount>
+        <Date>2018-03-22T04:10:43.7768641+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>197</Amount>
+        <Date>2018-03-26T22:13:54.6538313+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>826</Amount>
+        <Date>2018-03-29T09:55:09.6321518+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>704</Amount>
+        <Date>2018-04-02T18:13:52.328926+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>993</Amount>
+        <Date>2018-04-03T10:56:06.3528543+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>579</Amount>
+        <Date>2018-04-03T18:56:38.1707331+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>461</Amount>
+        <Date>2018-04-04T12:04:57.7430404+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>666</Amount>
+        <Date>2018-04-04T14:55:32.9994578+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>312</Amount>
+        <Date>2018-04-04T19:57:58.0157521+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>613</Amount>
+        <Date>2018-04-05T04:33:56.1887449+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>714</Amount>
+        <Date>2018-04-06T12:21:15.2035206+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>551</Amount>
+        <Date>2018-04-06T13:17:42.3667232+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>628</Amount>
+        <Date>2018-04-07T02:52:29.8718854+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>271</Amount>
+        <Date>2018-04-08T04:21:46.5279266+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>810</Amount>
+        <Date>2018-04-09T19:38:27.6439866+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>490</Amount>
+        <Date>2018-04-10T04:44:53.613061+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>515</Amount>
+        <Date>2018-04-13T11:34:30.978979+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>959</Amount>
+        <Date>2018-04-17T04:23:20.3357864+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>392</Amount>
+        <Date>2018-04-19T00:24:44.7207709+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>253</Amount>
+        <Date>2018-04-21T05:28:00.4741064+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>408</Amount>
+        <Date>2018-04-21T16:34:54.8475497+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>994</Amount>
+        <Date>2018-04-25T03:08:57.5118718+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>197</Amount>
+        <Date>2018-04-25T12:34:27.4694309+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>935</Amount>
+        <Date>2018-04-27T22:55:20.736586+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>377</Amount>
+        <Date>2018-04-28T00:38:30.8272943+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>228</Amount>
+        <Date>2018-04-29T16:56:28.669058+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>64</Amount>
+        <Date>2018-05-01T22:58:47.7193298+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Alexander</FirstName>
+    <LastName>Vlasov</LastName>
+    <MiddleName>Alexandrovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>105</Amount>
+        <Date>2018-03-26T01:35:25.4591871+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>737</Amount>
+        <Date>2018-03-28T00:38:12.248598+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>161</Amount>
+        <Date>2018-03-28T00:52:53.798313+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>749</Amount>
+        <Date>2018-03-30T03:33:05.0647933+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>356</Amount>
+        <Date>2018-04-01T09:15:40.5893578+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>20</Amount>
+        <Date>2018-04-04T03:32:41.484877+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>891</Amount>
+        <Date>2018-04-06T03:49:34.7079474+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>346</Amount>
+        <Date>2018-04-08T13:23:47.5391542+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>784</Amount>
+        <Date>2018-04-13T06:21:29.8762936+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>534</Amount>
+        <Date>2018-04-14T20:01:57.8843767+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>865</Amount>
+        <Date>2018-04-15T12:34:20.1847792+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>852</Amount>
+        <Date>2018-04-20T05:35:56.9420111+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>629</Amount>
+        <Date>2018-04-21T23:45:40.8041331+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>757</Amount>
+        <Date>2018-04-25T20:08:52.2602826+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>475</Amount>
+        <Date>2018-04-28T03:39:29.2155564+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>823</Amount>
+        <Date>2018-04-28T21:11:52.1352961+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>534</Amount>
+        <Date>2018-05-02T15:06:37.8233315+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>583</Amount>
+        <Date>2018-05-03T14:56:21.5397699+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>408</Amount>
+        <Date>2018-05-03T16:06:16.4226311+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Anton</FirstName>
+    <LastName>Ignatov</LastName>
+    <MiddleName>Antonovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>674</Amount>
+        <Date>2018-03-21T15:26:20.6793181+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>191</Amount>
+        <Date>2018-03-22T06:33:21.3420386+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>800</Amount>
+        <Date>2018-03-22T16:07:49.089278+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>719</Amount>
+        <Date>2018-03-24T11:36:38.4890499+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>654</Amount>
+        <Date>2018-03-27T06:56:18.5786246+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>910</Amount>
+        <Date>2018-03-28T12:32:05.4444116+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>723</Amount>
+        <Date>2018-04-04T02:30:31.8468471+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>354</Amount>
+        <Date>2018-04-04T11:17:56.5407193+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>548</Amount>
+        <Date>2018-04-04T19:51:31.9165385+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>961</Amount>
+        <Date>2018-04-05T09:56:52.8056417+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>115</Amount>
+        <Date>2018-04-05T16:26:31.8482661+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>962</Amount>
+        <Date>2018-04-06T07:07:13.8232703+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>461</Amount>
+        <Date>2018-04-07T00:53:19.2990799+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>728</Amount>
+        <Date>2018-04-07T15:32:39.475775+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>849</Amount>
+        <Date>2018-04-07T22:59:06.7978021+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>359</Amount>
+        <Date>2018-04-12T01:19:47.8584385+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>313</Amount>
+        <Date>2018-04-12T10:12:27.7467387+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>988</Amount>
+        <Date>2018-04-13T08:23:29.6379622+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>955</Amount>
+        <Date>2018-04-14T23:21:56.7532366+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>257</Amount>
+        <Date>2018-04-15T08:21:14.834509+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>189</Amount>
+        <Date>2018-04-19T16:58:17.9251542+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>252</Amount>
+        <Date>2018-04-22T10:30:32.323194+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>987</Amount>
+        <Date>2018-04-23T14:26:36.96691+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>441</Amount>
+        <Date>2018-04-24T18:42:18.5064356+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>125</Amount>
+        <Date>2018-04-25T06:08:28.4184116+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>706</Amount>
+        <Date>2018-04-25T06:44:57.1458689+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>797</Amount>
+        <Date>2018-05-01T16:19:05.0040189+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Anton</FirstName>
+    <LastName>Petrov</LastName>
+    <MiddleName>Petrovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>302</Amount>
+        <Date>2018-03-18T09:50:37.1170738+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>321</Amount>
+        <Date>2018-03-23T10:45:36.3646799+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>119</Amount>
+        <Date>2018-03-24T06:41:18.3639938+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>801</Amount>
+        <Date>2018-03-27T07:22:21.1841508+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>283</Amount>
+        <Date>2018-04-08T00:45:28.2501762+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>412</Amount>
+        <Date>2018-04-13T18:07:52.9333295+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>728</Amount>
+        <Date>2018-04-15T06:08:31.9264996+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>931</Amount>
+        <Date>2018-04-15T12:27:53.9039935+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>201</Amount>
+        <Date>2018-04-20T03:00:04.6971393+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>442</Amount>
+        <Date>2018-04-24T11:36:29.9135985+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>204</Amount>
+        <Date>2018-04-26T11:11:42.8612332+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>379</Amount>
+        <Date>2018-04-27T08:09:10.0345374+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>613</Amount>
+        <Date>2018-05-02T15:17:54.9736722+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>948</Amount>
+        <Date>2018-05-03T03:56:06.4533584+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Ivan</FirstName>
+    <LastName>Petrov</LastName>
+    <MiddleName>Ivanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>284</Amount>
+        <Date>2018-03-11T05:54:29.9025409+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>791</Amount>
+        <Date>2018-03-19T17:11:21.6201595+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>709</Amount>
+        <Date>2018-03-24T10:19:28.4637086+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>660</Amount>
+        <Date>2018-03-29T22:00:14.4532103+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>352</Amount>
+        <Date>2018-03-31T05:51:29.4153283+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>22</Amount>
+        <Date>2018-03-31T14:50:01.9188958+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>186</Amount>
+        <Date>2018-04-01T03:24:45.275953+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>497</Amount>
+        <Date>2018-04-02T04:45:55.9372453+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>627</Amount>
+        <Date>2018-04-03T13:55:40.8883023+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>928</Amount>
+        <Date>2018-04-04T01:01:28.5789449+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>503</Amount>
+        <Date>2018-04-04T19:08:44.9983341+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>156</Amount>
+        <Date>2018-04-05T17:41:34.8596111+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>21</Amount>
+        <Date>2018-04-06T03:52:22.3914475+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>812</Amount>
+        <Date>2018-04-08T22:53:09.9730626+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>814</Amount>
+        <Date>2018-04-09T00:07:49.9152106+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>725</Amount>
+        <Date>2018-04-11T16:01:43.9313309+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>114</Amount>
+        <Date>2018-04-14T12:32:39.0855488+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>174</Amount>
+        <Date>2018-04-17T06:52:54.3230838+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>585</Amount>
+        <Date>2018-04-21T02:05:28.1446425+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>539</Amount>
+        <Date>2018-04-26T22:35:51.7462252+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>383</Amount>
+        <Date>2018-05-02T01:11:12.9572681+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>555</Amount>
+        <Date>2018-05-02T22:49:04.9583384+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Ivan</FirstName>
+    <LastName>Mykolayenko</LastName>
+    <MiddleName>Alexandrovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>695</Amount>
+        <Date>2018-03-25T10:56:13.1409085+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>706</Amount>
+        <Date>2018-04-04T13:41:20.8876155+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>866</Amount>
+        <Date>2018-04-06T05:21:07.3264779+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>767</Amount>
+        <Date>2018-04-06T17:41:39.7616565+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>251</Amount>
+        <Date>2018-04-12T14:46:14.9868737+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>945</Amount>
+        <Date>2018-04-14T09:28:52.0146369+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>411</Amount>
+        <Date>2018-04-16T16:11:18.9061646+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>455</Amount>
+        <Date>2018-04-18T02:31:56.4516588+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>734</Amount>
+        <Date>2018-04-18T08:53:02.9661436+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>609</Amount>
+        <Date>2018-04-20T22:36:09.9684559+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>770</Amount>
+        <Date>2018-04-28T05:08:50.1793192+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>294</Amount>
+        <Date>2018-04-29T01:08:35.3589677+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Sergey</FirstName>
+    <LastName>Sergeev</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>760</Amount>
+        <Date>2018-03-05T04:02:17.960054+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>83</Amount>
+        <Date>2018-03-07T20:44:25.652695+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>25</Amount>
+        <Date>2018-03-09T16:02:29.4204022+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>27</Amount>
+        <Date>2018-03-12T03:14:17.249506+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>933</Amount>
+        <Date>2018-03-14T03:21:31.3636673+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>795</Amount>
+        <Date>2018-03-15T07:09:02.7824058+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>334</Amount>
+        <Date>2018-03-19T22:26:10.9825273+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>51</Amount>
+        <Date>2018-03-23T03:24:01.3180743+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>424</Amount>
+        <Date>2018-03-23T21:42:50.599608+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>492</Amount>
+        <Date>2018-03-24T03:03:59.1106739+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>930</Amount>
+        <Date>2018-03-25T07:27:22.9595007+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>545</Amount>
+        <Date>2018-03-25T08:43:38.1018566+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>457</Amount>
+        <Date>2018-03-25T20:20:29.4695368+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>509</Amount>
+        <Date>2018-03-29T16:49:32.5617996+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>891</Amount>
+        <Date>2018-03-30T02:39:16.859932+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>524</Amount>
+        <Date>2018-04-02T11:03:54.8095371+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>940</Amount>
+        <Date>2018-04-04T08:28:26.825769+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>978</Amount>
+        <Date>2018-04-07T23:23:14.9127403+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>668</Amount>
+        <Date>2018-04-08T23:07:27.7528401+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>758</Amount>
+        <Date>2018-04-12T01:30:19.1985669+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>945</Amount>
+        <Date>2018-04-16T14:09:21.2147725+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>602</Amount>
+        <Date>2018-04-18T13:18:24.2627744+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>708</Amount>
+        <Date>2018-04-19T07:01:08.3224967+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>994</Amount>
+        <Date>2018-04-19T19:25:19.3150898+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>188</Amount>
+        <Date>2018-04-20T02:24:17.2113412+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>983</Amount>
+        <Date>2018-04-20T22:35:59.3662201+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>216</Amount>
+        <Date>2018-04-21T03:03:23.8585617+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>743</Amount>
+        <Date>2018-04-23T17:48:05.2719776+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>848</Amount>
+        <Date>2018-04-24T02:58:14.6499792+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>555</Amount>
+        <Date>2018-04-25T07:33:55.6993943+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>210</Amount>
+        <Date>2018-04-25T10:02:09.7489237+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>670</Amount>
+        <Date>2018-04-25T18:24:08.397884+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>407</Amount>
+        <Date>2018-04-26T19:25:55.0353145+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>975</Amount>
+        <Date>2018-04-27T05:20:47.4476479+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>150</Amount>
+        <Date>2018-04-29T11:58:11.2670716+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>770</Amount>
+        <Date>2018-04-29T22:08:22.7595138+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>510</Amount>
+        <Date>2018-04-29T23:19:50.7000478+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>780</Amount>
+        <Date>2018-05-01T02:08:19.5719163+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Bogdan</FirstName>
+    <LastName>Petrov</LastName>
+    <MiddleName>Vitalievich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>414</Amount>
+        <Date>2018-03-13T13:08:46.3226379+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>499</Amount>
+        <Date>2018-03-13T15:35:01.7117769+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>942</Amount>
+        <Date>2018-03-14T21:51:09.3708719+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>906</Amount>
+        <Date>2018-03-15T09:41:46.6562614+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>674</Amount>
+        <Date>2018-03-15T16:03:55.0547799+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>360</Amount>
+        <Date>2018-03-16T00:32:13.1351967+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>272</Amount>
+        <Date>2018-03-18T16:24:47.4763518+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>79</Amount>
+        <Date>2018-03-19T09:17:11.3229634+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>180</Amount>
+        <Date>2018-03-19T09:17:35.1501526+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>676</Amount>
+        <Date>2018-03-19T10:00:11.699393+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>908</Amount>
+        <Date>2018-03-20T06:39:39.3193891+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>413</Amount>
+        <Date>2018-03-20T21:32:25.4098787+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>104</Amount>
+        <Date>2018-03-21T07:22:16.8970286+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>340</Amount>
+        <Date>2018-03-21T10:18:09.9672927+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>58</Amount>
+        <Date>2018-03-22T15:03:46.014728+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>673</Amount>
+        <Date>2018-03-25T17:18:32.8645717+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>827</Amount>
+        <Date>2018-03-25T23:28:36.7441471+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>124</Amount>
+        <Date>2018-03-26T17:31:15.1726079+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>774</Amount>
+        <Date>2018-03-27T21:02:32.535555+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>447</Amount>
+        <Date>2018-03-27T21:28:36.5858129+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>503</Amount>
+        <Date>2018-03-31T18:45:57.3219055+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>129</Amount>
+        <Date>2018-04-01T00:05:41.0377765+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>953</Amount>
+        <Date>2018-04-02T22:44:57.2836406+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>716</Amount>
+        <Date>2018-04-05T09:21:15.1358032+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>841</Amount>
+        <Date>2018-04-05T09:53:51.3649842+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>845</Amount>
+        <Date>2018-04-05T11:52:59.339735+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>308</Amount>
+        <Date>2018-04-06T11:13:38.4323625+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>405</Amount>
+        <Date>2018-04-07T23:08:06.7039465+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>166</Amount>
+        <Date>2018-04-08T11:41:40.0706369+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>60</Amount>
+        <Date>2018-04-12T04:54:25.3921366+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>129</Amount>
+        <Date>2018-04-12T14:44:07.3580346+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>353</Amount>
+        <Date>2018-04-12T20:33:53.3060944+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>445</Amount>
+        <Date>2018-04-16T15:20:43.3533665+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>407</Amount>
+        <Date>2018-04-19T05:02:32.0385819+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>726</Amount>
+        <Date>2018-04-20T19:37:54.0750679+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>534</Amount>
+        <Date>2018-04-23T03:54:19.4363568+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>237</Amount>
+        <Date>2018-04-23T13:23:45.3766634+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>234</Amount>
+        <Date>2018-04-24T19:17:40.1818326+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>741</Amount>
+        <Date>2018-04-25T02:09:00.0932012+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>487</Amount>
+        <Date>2018-04-25T08:41:03.8367105+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>258</Amount>
+        <Date>2018-04-26T23:04:36.4886714+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>614</Amount>
+        <Date>2018-04-27T07:56:01.6320139+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>105</Amount>
+        <Date>2018-04-30T13:04:11.2309897+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>402</Amount>
+        <Date>2018-04-30T15:55:14.3999493+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>234</Amount>
+        <Date>2018-05-01T05:34:51.5154901+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>715</Amount>
+        <Date>2018-05-01T06:49:28.2403552+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>668</Amount>
+        <Date>2018-05-02T11:10:52.2937343+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Vitaliy</FirstName>
+    <LastName>Vlasov</LastName>
+    <MiddleName>Ivanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>139</Amount>
+        <Date>2018-03-14T12:07:32.2524016+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>566</Amount>
+        <Date>2018-03-15T16:04:30.409567+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>574</Amount>
+        <Date>2018-03-16T09:20:50.5279303+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>968</Amount>
+        <Date>2018-03-24T22:08:33.4879207+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>697</Amount>
+        <Date>2018-03-28T01:56:17.4419362+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>613</Amount>
+        <Date>2018-04-06T19:09:18.7500722+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>524</Amount>
+        <Date>2018-04-09T20:20:29.253686+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>455</Amount>
+        <Date>2018-04-13T05:04:01.674869+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>612</Amount>
+        <Date>2018-04-24T20:59:29.0220864+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>383</Amount>
+        <Date>2018-04-26T20:14:30.6062246+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>307</Amount>
+        <Date>2018-04-29T08:35:14.5426082+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Petr</FirstName>
+    <LastName>Mykolayenko</LastName>
+    <MiddleName>Ivanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>420</Amount>
+        <Date>2018-03-19T03:31:22.1772001+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>599</Amount>
+        <Date>2018-03-20T18:35:07.8402942+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>281</Amount>
+        <Date>2018-03-22T06:15:57.5238415+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>974</Amount>
+        <Date>2018-03-23T10:02:28.6348804+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>743</Amount>
+        <Date>2018-03-24T19:05:50.7950946+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>938</Amount>
+        <Date>2018-03-27T16:19:01.5350375+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>652</Amount>
+        <Date>2018-03-31T03:38:13.9651498+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>723</Amount>
+        <Date>2018-04-01T07:39:54.9690209+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>239</Amount>
+        <Date>2018-04-02T07:27:13.9583425+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>816</Amount>
+        <Date>2018-04-03T13:00:35.9635593+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>512</Amount>
+        <Date>2018-04-05T17:34:37.3492623+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>501</Amount>
+        <Date>2018-04-06T00:01:48.2326822+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>269</Amount>
+        <Date>2018-04-14T15:11:18.0981743+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>152</Amount>
+        <Date>2018-04-15T07:22:51.2456253+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>779</Amount>
+        <Date>2018-04-16T06:32:35.5216876+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>192</Amount>
+        <Date>2018-04-16T22:11:29.7739089+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>536</Amount>
+        <Date>2018-04-18T01:37:08.3981179+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>463</Amount>
+        <Date>2018-04-18T22:59:58.16244+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>463</Amount>
+        <Date>2018-04-21T01:08:44.5565441+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>470</Amount>
+        <Date>2018-04-21T06:57:18.2227187+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>871</Amount>
+        <Date>2018-04-24T23:24:43.9194191+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>817</Amount>
+        <Date>2018-04-25T17:14:17.0251225+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>209</Amount>
+        <Date>2018-04-25T17:28:40.3667285+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>78</Amount>
+        <Date>2018-04-29T12:58:35.6775088+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>735</Amount>
+        <Date>2018-04-29T20:36:18.3282007+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>842</Amount>
+        <Date>2018-05-02T05:19:11.6391955+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>399</Amount>
+        <Date>2018-05-02T11:07:46.4487958+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>226</Amount>
+        <Date>2018-05-03T08:01:50.6575601+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>980</Amount>
+        <Date>2018-05-03T12:47:03.7541241+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+  <BankClient>
+    <FirstName>Sergey</FirstName>
+    <LastName>Sidorov</LastName>
+    <MiddleName>Bogdanovich</MiddleName>
+    <Operations>
+      <MoneyOperation type="income">
+        <Amount>120</Amount>
+        <Date>2018-03-12T15:36:38.3349905+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>687</Amount>
+        <Date>2018-03-20T01:54:42.8967238+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>716</Amount>
+        <Date>2018-03-20T04:26:12.7898903+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>459</Amount>
+        <Date>2018-03-20T14:03:18.1663291+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>32</Amount>
+        <Date>2018-03-21T09:50:16.7896845+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>522</Amount>
+        <Date>2018-03-22T06:58:12.2998746+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>215</Amount>
+        <Date>2018-03-22T21:57:40.6522742+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>251</Amount>
+        <Date>2018-03-23T08:25:20.7425698+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>210</Amount>
+        <Date>2018-03-23T09:17:26.4248731+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>179</Amount>
+        <Date>2018-03-24T21:05:38.8172645+02:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>664</Amount>
+        <Date>2018-03-25T08:42:09.8380021+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>325</Amount>
+        <Date>2018-03-26T00:00:59.3201734+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>604</Amount>
+        <Date>2018-03-28T22:08:28.4807059+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>401</Amount>
+        <Date>2018-03-29T05:00:51.7510148+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>452</Amount>
+        <Date>2018-03-29T23:50:34.6773331+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>784</Amount>
+        <Date>2018-03-31T06:51:11.2546426+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>35</Amount>
+        <Date>2018-04-02T00:32:40.5403589+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>804</Amount>
+        <Date>2018-04-02T00:39:59.7652147+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>692</Amount>
+        <Date>2018-04-03T09:45:07.9714037+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>352</Amount>
+        <Date>2018-04-03T22:34:13.382848+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>448</Amount>
+        <Date>2018-04-05T11:14:29.3209218+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>189</Amount>
+        <Date>2018-04-10T02:13:50.6162685+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>711</Amount>
+        <Date>2018-04-12T11:10:09.0676159+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>832</Amount>
+        <Date>2018-04-13T02:20:38.9728548+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>929</Amount>
+        <Date>2018-04-18T00:07:26.4032078+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>956</Amount>
+        <Date>2018-04-18T08:45:09.0091084+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>773</Amount>
+        <Date>2018-04-18T17:33:48.2548997+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>367</Amount>
+        <Date>2018-04-20T01:43:50.3345418+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>671</Amount>
+        <Date>2018-04-24T14:50:44.0809282+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>834</Amount>
+        <Date>2018-04-26T22:50:26.5994164+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="income">
+        <Amount>968</Amount>
+        <Date>2018-04-27T15:15:03.5227815+03:00</Date>
+      </MoneyOperation>
+      <MoneyOperation type="expense">
+        <Amount>344</Amount>
+        <Date>2018-04-28T14:12:28.7775452+03:00</Date>
+      </MoneyOperation>
+    </Operations>
+  </BankClient>
+</ArrayOfBankClient>
