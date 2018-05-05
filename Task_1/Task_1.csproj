@@ -50,11 +50,10 @@
     <None Include="App.config" />
     <None Include="Input\bankClients.json" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Output\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Input\bankClients.xml" />
+    <Content Include="Output\bank_clients_statistics.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

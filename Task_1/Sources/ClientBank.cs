@@ -22,6 +22,7 @@
 
 
 using System;
+using System.Text;
 using System.Xml.Serialization;
 
 
@@ -42,19 +43,10 @@ namespace Task_1
             [XmlEnum(Name = "expense")]
             Credit,
         }
-        // Class members.
         [XmlAttribute("type")]
         public Type OperationType;
         public Decimal Amount;
         public DateTime Date;
-        //
-        // Summary:
-        //   Convert operation to sane string representation.
-        public override string ToString()
-        {
-            return string.Format("Date: {0}, Type: {1}, Amount: {2}",
-                Date, Enum.GetName(typeof(MoneyOperation.Type), OperationType), Amount);
-        }
     }
     //
     // Summary:
@@ -65,41 +57,124 @@ namespace Task_1
         public string LastName;
         public string MiddleName;
         public MoneyOperation[] Operations;
-
-        public override string ToString()
-        {
-            return string.Format("{0} {1} {2}, operations: {3}",
-                FirstName, LastName, MiddleName, Operations.Length);
-        }
     }
-    
-    public class ClinetBalance
+    //
+    // Summary:
+    //   Class to represent client month totals: sum of all operations
+    //   client performed during the month.
+    public class MonthTotal
     {
         public string FirstName;
         public string LastName;
         public string MiddleName;
-        public decimal Balance;
+        public decimal Total;
+        //
+        // Summary:
+        //   Default constructor, required by serialization/deserialization routines.
+        public MonthTotal()
+        {
+        }
+        //
+        // Summary:
+        //   Non default constructor, used to create new object instance.
+        public MonthTotal(string first_name, string last_name, string middle_name, decimal total)
+        {
+            FirstName = first_name;
+            LastName = last_name;
+            MiddleName = middle_name;
+            Total = total;
+        }
+        //
+        // Summary:
+        //   Convert class object to readable string representation.
+        //
+        // Return:
+        //   Class object string representation.
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}, Total: {3}",
+                FirstName, LastName, MiddleName, Total);
+        }
     }
-    
+    //
+    // Summary:
+    //   Class to represent client identification information.
     public class ClientInfo
     {
         public string FirstName;
         public string LastName;
         public string MiddleName;
         public DateTime FirstOperation;
+        //
+        // Summary:
+        //   Default constructor, required by serialization/deserialization routines.
+        public ClientInfo()
+        {
+        }
+        //
+        // Summary:
+        //   Non default constructor, used to create new object instance.
+        public ClientInfo(string first_name, string last_name, string middle_name, DateTime first_operation)
+        {
+            FirstName = first_name;
+            LastName = last_name;
+            MiddleName = middle_name;
+            FirstOperation = first_operation;
+        }
+        //
+        // Summary:
+        //   Convert class object to readable string representation.
+        //
+        // Return:
+        //   Class object string representation.
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}, FirstOperation: {3}",
+                FirstName, LastName, MiddleName, FirstOperation != default(DateTime) ? FirstOperation.ToString() : "unknown");
+        }
     }
-    
+    //
+    // Summary:
+    //   Class to represent different client-bank statistics.
     public class ClientStatistics
     {
-        // Clients balances at the end of the month.
-        public ClinetBalance[] BalanceList;
-        // Clients, which not withdraw money during the month.
-        public ClientInfo[] LoyalClients;
-        // Clients with maximal debit sum.
-        public ClientInfo DebitFavorite;
-        // Clients with maximal credit sum.
-        public ClientInfo CreditFavorite;
-        // Clinet with maximal balance at the end of the month.
-        public ClientInfo BanaceFavorite;
+        public MonthTotal[] AprilTotals;
+        public ClientInfo[] NoAprilDebit;
+        public ClientInfo MaxTotalDebit;
+        public ClientInfo MaxTotalCredit;
+        public ClientInfo MaxAprilBanace;
+        //
+        // Summary:
+        //   Convert class object to readable string representation.
+        //
+        // Return:
+        //   Class object string representation.
+        public override string ToString()
+        {
+            var builder = new StringBuilder();
+            builder.AppendLine();
+            builder.AppendLine("April Totals:");
+            if (AprilTotals != null && AprilTotals.Length > 0)
+                foreach (var total in AprilTotals) builder.AppendLine(total.ToString());
+            else builder.AppendLine("none");
+            builder.AppendLine();
+            builder.AppendLine("No April Debit:");
+            if (NoAprilDebit != null && NoAprilDebit.Length > 0)
+                foreach (var info in NoAprilDebit) builder.AppendLine(info.ToString());
+            else builder.AppendLine("none");
+            builder.AppendLine();
+            builder.AppendLine("Max Total Debit:");
+            if (MaxTotalDebit != null) builder.AppendLine(MaxTotalDebit.ToString());
+            else builder.AppendLine("none");
+            builder.AppendLine();
+            builder.AppendLine("Max Total Credit:");
+            if (MaxTotalCredit != null) builder.AppendLine(MaxTotalCredit.ToString());
+            else builder.AppendLine("none");
+            builder.AppendLine();
+            builder.AppendLine("Max April balance (1 May 00:00 AM):");
+            if (MaxAprilBanace != null) builder.AppendLine(MaxAprilBanace.ToString());
+            else builder.AppendLine("none");
+            return builder.ToString();
+        }
     }
 }

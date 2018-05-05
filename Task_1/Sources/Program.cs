@@ -117,17 +117,41 @@ namespace Task_1
             Console.WriteLine("OK!");
             return clients;
         }
-
+        //
+        // Summary:
+        //   Load and deserialize clients from the specified file path.
+        //
+        // Parameters:
+        //   path:
+        //     Path to the file to load clients information from.
+        //
+        //   deserializer:
+        //     Deserialization function to use.
         private static void ProcessClients(BankClient[] clients, string output_path, Action<object, string> serializer)
         {
             ClientStatistics clients_statistics = new ClientStatistics();
 
-            foreach (var client in clients)
-            {
-                Console.WriteLine(client);
-            }
+            // Fetch April totals for each client.
+            clients_statistics.AprilTotals = clients.Select(client => new MonthTotal(client.FirstName, client.LastName, client.MiddleName, client.Operations
+                    .Where(operation => operation.Date.Month == 4)
+                    .Aggregate(0m, (total, operaton) =>
+                        total = operaton.OperationType == MoneyOperation.Type.Debit
+                        ? total + operaton.Amount
+                        : total - operaton.Amount))).ToArray();
 
+            // Fetch information about clients who are not withdraw money in April.
+            clients_statistics.NoAprilDebit = clients.Where(client => client.Operations
+                .Where(operation => operation.Date.Month == 4 && operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount) == 0)
+                .Select(client => new ClientInfo(client.FirstName, client.LastName, client.MiddleName,
+                    client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Debit).First().Date)).ToArray();
+
+
+
+            Console.Write(clients_statistics);
+            Console.WriteLine();
+            Console.Write("Writing to the disk... ");
             serializer(clients_statistics, output_path);
+            Console.WriteLine("OK!");
         }
         //
         // Summary:
