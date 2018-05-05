@@ -41,6 +41,12 @@ namespace Task_1
         public string LastName;
         public string MiddleName;
         public MoneyOperation[] Operations;
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}, operations: {3}",
+                FirstName, LastName, MiddleName, Operations.Length);
+        }
     }
     
     public class ClinetBalance

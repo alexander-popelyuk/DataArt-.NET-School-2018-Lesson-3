@@ -51,7 +51,7 @@ namespace Task_1
 
         private static BankClient[] GetClients(string path)
         {
-            Console.Write("Processing '{0}'...", path);
+            Console.Write("Processing '{0}'... ", path);
 
             if (!File.Exists(path))
             {
@@ -74,7 +74,10 @@ namespace Task_1
 
         private static void ProcessClients(BankClient[] clients)
         {
-            throw new NotImplementedException();
+            foreach (var client in clients)
+            {
+                Console.WriteLine(client);
+            }
         }
         //
         // Summary:
