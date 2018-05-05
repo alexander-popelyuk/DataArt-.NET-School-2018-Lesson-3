@@ -1,10 +1,34 @@
-﻿using System;
+﻿// MIT License
+// 
+// Copyright(c) 2018 Alexander Popelyuk
+// 
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+// 
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
+
 
 namespace Task_1
 {
@@ -15,6 +39,10 @@ namespace Task_1
     {
         // Limit input deserialization file size.
         const long MaxInputSize = 5 * 1024 * 1024;
+        // Default command line parameters.
+        const string DefaultOutputDirectory = ".";
+        // Statistics output file name.
+        const string OutputFileName = "bank_clients_statistics";
         //
         // Summary:
         //   Entry point to the program.
@@ -27,16 +55,27 @@ namespace Task_1
         {
             try
             {
-                if (args.Length > 1)
+                if (args.Length == 0)
+                {
+                    PrintError("No input specified.");
+                    PrintUsage();
+                }
+                else if (args.Length > 2)
                 {
                     PrintError("Too many arguments.");
                     PrintUsage();
                 }
-                else if (args.Length == 1 && args[0] == "/?") PrintHelp();
+                else if (args.Length == 1 && args[0] == "/?")
+                {
+                    PrintHelp();
+                }
                 else
                 {
-                    if (args.Length > 0) ProcessClients(GetClients(args[0]));
-                    else PrintError("No input specified.");
+                    string output_directory = DefaultOutputDirectory;
+                    if (args.Length > 1) output_directory = args[1];
+                    BankClient[] clients = GetClients(args[0], FromXml<BankClient[]>);
+                    string output_path = Path.Combine(output_directory, OutputFileName + ".xml");
+                    ProcessClients(clients, output_path, ToXml);
                 }
             }
             catch (Exception ex)
@@ -48,8 +87,20 @@ namespace Task_1
                 Console.ReadKey(true);
             #endif
         }
-
-        private static BankClient[] GetClients(string path)
+        //
+        // Summary:
+        //   Load and deserialize clients from the specified file path.
+        //
+        // Parameters:
+        //   path:
+        //     Path to the file to load clients information from.
+        //
+        //   deserializer:
+        //     Deserialization function to use.
+        //
+        // Return:
+        //   Array of 'BankClients' objects loaded from specified 'path' argument.
+        private static BankClient[] GetClients(string path, Func<string, BankClient[]> deserializer)
         {
             Console.Write("Processing '{0}'... ", path);
 
@@ -62,22 +113,21 @@ namespace Task_1
                 throw new Exception(string.Format("File size too big to process (max = {0}).", MaxInputSize));
             }
 
-            var serializer = new XmlSerializer(typeof(BankClient[]));
-
-            using (var stream = new StreamReader(path))
-            {
-                BankClient[] clients = (BankClient[])serializer.Deserialize(stream);
-                Console.WriteLine("OK!");
-                return clients;
-            }
+            BankClient[] clients = deserializer(path);
+            Console.WriteLine("OK!");
+            return clients;
         }
 
-        private static void ProcessClients(BankClient[] clients)
+        private static void ProcessClients(BankClient[] clients, string output_path, Action<object, string> serializer)
         {
+            ClientStatistics clients_statistics = new ClientStatistics();
+
             foreach (var client in clients)
             {
                 Console.WriteLine(client);
             }
+
+            serializer(clients_statistics, output_path);
         }
         //
         // Summary:
@@ -123,7 +173,7 @@ namespace Task_1
         static void PrintHelp()
         {
             Console.WriteLine();
-            Console.WriteLine("Process clients database and print statistics.");
+            Console.WriteLine("Process clients database print statistics and save it to output file.");
             PrintUsage();
         }
         //
@@ -132,9 +182,10 @@ namespace Task_1
         static void PrintUsage()
         {
             Console.WriteLine();
-            Console.WriteLine("USAGE: Task_1.exe [ input ]");
+            Console.WriteLine("USAGE: Task_1.exe input [ output ]");
             Console.WriteLine();
             Console.WriteLine("input\tInput file to process.");
+            Console.WriteLine("output\tDirectory for output (default: '{0}').", DefaultOutputDirectory);
         }
         //
         // Summary:
