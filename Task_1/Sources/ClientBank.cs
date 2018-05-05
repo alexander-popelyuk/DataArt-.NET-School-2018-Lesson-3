@@ -18,7 +18,7 @@ namespace Task_1
             [XmlEnum(Name = "expense")]
             Credit,
         }
-        // Operation class members.
+        // Class members.
         [XmlAttribute("type")]
         public Type OperationType;
         public Decimal Amount;
@@ -41,5 +41,30 @@ namespace Task_1
         public string LastName;
         public string MiddleName;
         public MoneyOperation[] Operations;
+    }
+    
+    public class ClinetBalance
+    {
+        public string FirstName;
+        public string LastName;
+        public string MiddleName;
+        public decimal Balance;
+    }
+    
+    public class ClientInfo
+    {
+        public string FirstName;
+        public string LastName;
+        public string MiddleName;
+        public DateTime FirstOperation;
+    }
+    
+    public class ClientStatistics
+    {
+        public ClinetBalance[] BalanceList;
+        public ClientInfo[] LoyalClients;
+        public ClientInfo DebitFavorite;
+        public ClientInfo CreditFavorite;
+        public ClientInfo BanaceFavorite;
     }
 }
