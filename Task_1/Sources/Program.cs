@@ -114,24 +114,27 @@ namespace Task_1
         }
         //
         // Summary:
-        //   Load and deserialize clients from the specified file path.
+        //   Process clients data and generate statistics. Print generated statistics to the
+        //   standard output stream and write to the disk.
         //
         // Parameters:
-        //   path:
-        //     Path to the file to load clients information from.
+        //   clients:
+        //     Clients data to be processed by the routine.
         //
-        //   deserializer:
-        //     Deserialization function to use.
+        //   output_path:
+        //     Path to the output file with statistics.
+        //
+        //   serializer:
+        //     Serializer for statistic output.
         private static void ProcessClients(BankClient[] clients, string output_path, Action<object, string> serializer)
         {
             ClientStatistics clients_statistics = new ClientStatistics
             {
-
                 // Fetch April totals for each client.
                 AprilTotals = clients.Select(client => new ClientTotal(client.FirstName, client.LastName, client.MiddleName, client.Operations
                         .Where(operation => operation.Date.Month == 4)
                         .Aggregate(0m, (total, operation) =>
-                            total = operation.OperationType == MoneyOperation.Type.Debit
+                            operation.OperationType == MoneyOperation.Type.Debit
                             ? total + operation.Amount
                             : total - operation.Amount))).ToArray(),
 
@@ -160,7 +163,7 @@ namespace Task_1
                     ClientInfo = new ClientInfo(client),
                     ClientBalance = client.Operations.Where(operation => operation.Date <= new DateTime(2018, 05, 1, 0, 0, 0))
                         .Aggregate(0m, (total, operation) =>
-                                total = operation.OperationType == MoneyOperation.Type.Debit
+                                operation.OperationType == MoneyOperation.Type.Debit
                                 ? total + operation.Amount
                                 : total - operation.Amount)
                 }).Aggregate((max, next) => next.ClientBalance > max.ClientBalance ? next : max).ClientInfo
@@ -168,7 +171,7 @@ namespace Task_1
 
             Console.Write(clients_statistics);
             Console.WriteLine();
-            Console.Write("Writing to the disk... ");
+            Console.Write("Writing to '{0}'... ", output_path);
             serializer(clients_statistics, output_path);
             Console.WriteLine("OK!");
         }

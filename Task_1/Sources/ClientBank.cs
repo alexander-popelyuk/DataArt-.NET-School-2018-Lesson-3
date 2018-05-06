@@ -156,7 +156,7 @@ namespace Task_1
                 foreach (var total in AprilTotals) builder.AppendLine(total.ToString());
             else builder.AppendLine("none");
             builder.AppendLine();
-            builder.AppendLine("No April Debit:");
+            builder.AppendLine("No April Credit:");
             if (NoAprilCredit != null && NoAprilCredit.Length > 0)
                 foreach (var info in NoAprilCredit) builder.AppendLine(info.ToString());
             else builder.AppendLine("none");
