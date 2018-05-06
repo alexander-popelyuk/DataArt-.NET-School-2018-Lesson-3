@@ -1,6 +1,4 @@
 /.vs
-/Task_1/obj/Debug/*.cache
-/Task_1/obj/Debug/*.cs
-/Task_1/bin/Debug/*.config
-/Task_1/obj
 /Task_1/bin/Debug/*.pdb
+/Task_1/bin/Release/*.pdb
+/Task_1/obj

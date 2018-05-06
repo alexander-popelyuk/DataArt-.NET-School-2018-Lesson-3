@@ -20,15 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
-
 
 namespace Task_1
 {
@@ -129,23 +124,47 @@ namespace Task_1
         //     Deserialization function to use.
         private static void ProcessClients(BankClient[] clients, string output_path, Action<object, string> serializer)
         {
-            ClientStatistics clients_statistics = new ClientStatistics();
+            ClientStatistics clients_statistics = new ClientStatistics
+            {
 
-            // Fetch April totals for each client.
-            clients_statistics.AprilTotals = clients.Select(client => new MonthTotal(client.FirstName, client.LastName, client.MiddleName, client.Operations
-                    .Where(operation => operation.Date.Month == 4)
-                    .Aggregate(0m, (total, operaton) =>
-                        total = operaton.OperationType == MoneyOperation.Type.Debit
-                        ? total + operaton.Amount
-                        : total - operaton.Amount))).ToArray();
+                // Fetch April totals for each client.
+                AprilTotals = clients.Select(client => new ClientTotal(client.FirstName, client.LastName, client.MiddleName, client.Operations
+                        .Where(operation => operation.Date.Month == 4)
+                        .Aggregate(0m, (total, operation) =>
+                            total = operation.OperationType == MoneyOperation.Type.Debit
+                            ? total + operation.Amount
+                            : total - operation.Amount))).ToArray(),
 
-            // Fetch information about clients who are not withdraw money in April.
-            clients_statistics.NoAprilDebit = clients.Where(client => client.Operations
-                .Where(operation => operation.Date.Month == 4 && operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount) == 0)
-                .Select(client => new ClientInfo(client.FirstName, client.LastName, client.MiddleName,
-                    client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Debit).First().Date)).ToArray();
+                // Fetch information about clients who are not withdraw money in April.
+                NoAprilCredit = clients.Where(client => client.Operations
+                    .Where(operation => operation.Date.Month == 4 && operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount) == 0)
+                .Select(client => new ClientInfo(client)).ToArray(),
 
+                // Fetch information about client who has maximal credit total.
+                MaxTotalCredit = clients.Select(client => new
+                {
+                    ClientInfo = new ClientInfo(client),
+                    TotalCredit = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount)
+                }).Aggregate((max, next) => next.TotalCredit > max.TotalCredit ? next : max).ClientInfo,
 
+                // Fetch information about client who has maximal debit total.
+                MaxTotalDebit = clients.Select(client => new
+                {
+                    ClientInfo = new ClientInfo(client),
+                    TotalDebit = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Debit).Sum(operation => operation.Amount)
+                }).Aggregate((max, next) => next.TotalDebit > max.TotalDebit ? next : max).ClientInfo,
+
+                // Fetch information about client who has maximal balance on 1 May 12:00 AM.
+                MaxAprilBanace = clients.Select(client => new
+                {
+                    ClientInfo = new ClientInfo(client),
+                    ClientBalance = client.Operations.Where(operation => operation.Date <= new DateTime(2018, 05, 1, 0, 0, 0))
+                        .Aggregate(0m, (total, operation) =>
+                                total = operation.OperationType == MoneyOperation.Type.Debit
+                                ? total + operation.Amount
+                                : total - operation.Amount)
+                }).Aggregate((max, next) => next.ClientBalance > max.ClientBalance ? next : max).ClientInfo
+            };
 
             Console.Write(clients_statistics);
             Console.WriteLine();

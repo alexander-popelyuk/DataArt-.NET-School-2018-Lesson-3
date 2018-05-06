@@ -20,11 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-
 using System;
+using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
-
 
 namespace Task_1
 {
@@ -60,9 +59,8 @@ namespace Task_1
     }
     //
     // Summary:
-    //   Class to represent client month totals: sum of all operations
-    //   client performed during the month.
-    public class MonthTotal
+    //   Class to represent client totals for some period of time.
+    public class ClientTotal
     {
         public string FirstName;
         public string LastName;
@@ -71,13 +69,13 @@ namespace Task_1
         //
         // Summary:
         //   Default constructor, required by serialization/deserialization routines.
-        public MonthTotal()
+        public ClientTotal()
         {
         }
         //
         // Summary:
         //   Non default constructor, used to create new object instance.
-        public MonthTotal(string first_name, string last_name, string middle_name, decimal total)
+        public ClientTotal(string first_name, string last_name, string middle_name, decimal total)
         {
             FirstName = first_name;
             LastName = last_name;
@@ -114,12 +112,12 @@ namespace Task_1
         //
         // Summary:
         //   Non default constructor, used to create new object instance.
-        public ClientInfo(string first_name, string last_name, string middle_name, DateTime first_operation)
+        public ClientInfo(BankClient client)
         {
-            FirstName = first_name;
-            LastName = last_name;
-            MiddleName = middle_name;
-            FirstOperation = first_operation;
+            FirstName = client.FirstName;
+            LastName = client.LastName;
+            MiddleName = client.MiddleName;
+            FirstOperation = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Debit).First().Date;
         }
         //
         // Summary:
@@ -129,7 +127,7 @@ namespace Task_1
         //   Class object string representation.
         public override string ToString()
         {
-            return string.Format("{0} {1} {2}, FirstOperation: {3}",
+            return string.Format("{0} {1} {2}, First Operation: {3}",
                 FirstName, LastName, MiddleName, FirstOperation != default(DateTime) ? FirstOperation.ToString() : "unknown");
         }
     }
@@ -138,8 +136,8 @@ namespace Task_1
     //   Class to represent different client-bank statistics.
     public class ClientStatistics
     {
-        public MonthTotal[] AprilTotals;
-        public ClientInfo[] NoAprilDebit;
+        public ClientTotal[] AprilTotals;
+        public ClientInfo[] NoAprilCredit;
         public ClientInfo MaxTotalDebit;
         public ClientInfo MaxTotalCredit;
         public ClientInfo MaxAprilBanace;
@@ -159,8 +157,8 @@ namespace Task_1
             else builder.AppendLine("none");
             builder.AppendLine();
             builder.AppendLine("No April Debit:");
-            if (NoAprilDebit != null && NoAprilDebit.Length > 0)
-                foreach (var info in NoAprilDebit) builder.AppendLine(info.ToString());
+            if (NoAprilCredit != null && NoAprilCredit.Length > 0)
+                foreach (var info in NoAprilCredit) builder.AppendLine(info.ToString());
             else builder.AppendLine("none");
             builder.AppendLine();
             builder.AppendLine("Max Total Debit:");
@@ -171,7 +169,7 @@ namespace Task_1
             if (MaxTotalCredit != null) builder.AppendLine(MaxTotalCredit.ToString());
             else builder.AppendLine("none");
             builder.AppendLine();
-            builder.AppendLine("Max April balance (1 May 00:00 AM):");
+            builder.AppendLine("Max April balance (1 May 12:00 AM):");
             if (MaxAprilBanace != null) builder.AppendLine(MaxAprilBanace.ToString());
             else builder.AppendLine("none");
             return builder.ToString();
