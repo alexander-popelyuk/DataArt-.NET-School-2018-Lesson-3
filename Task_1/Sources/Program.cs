@@ -143,13 +143,6 @@ namespace Task_1
                     .Where(operation => operation.Date.Month == 4 && operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount) == 0)
                 .Select(client => new ClientInfo(client)).ToArray(),
 
-                // Fetch information about client who has maximal credit total.
-                MaxTotalCredit = clients.Select(client => new
-                {
-                    ClientInfo = new ClientInfo(client),
-                    TotalCredit = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount)
-                }).Aggregate((max, next) => next.TotalCredit > max.TotalCredit ? next : max).ClientInfo,
-
                 // Fetch information about client who has maximal debit total.
                 MaxTotalDebit = clients.Select(client => new
                 {
@@ -157,11 +150,18 @@ namespace Task_1
                     TotalDebit = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Debit).Sum(operation => operation.Amount)
                 }).Aggregate((max, next) => next.TotalDebit > max.TotalDebit ? next : max).ClientInfo,
 
+                // Fetch information about client who has maximal credit total.
+                MaxTotalCredit = clients.Select(client => new
+                {
+                    ClientInfo = new ClientInfo(client),
+                    TotalCredit = client.Operations.Where(operation => operation.OperationType == MoneyOperation.Type.Credit).Sum(operation => operation.Amount)
+                }).Aggregate((max, next) => next.TotalCredit > max.TotalCredit ? next : max).ClientInfo,
+
                 // Fetch information about client who has maximal balance on 1 May 12:00 AM.
                 MaxAprilBanace = clients.Select(client => new
                 {
                     ClientInfo = new ClientInfo(client),
-                    ClientBalance = client.Operations.Where(operation => operation.Date <= new DateTime(2018, 05, 1, 0, 0, 0))
+                    ClientBalance = client.Operations.Where(operation => operation.Date < new DateTime(2018, 05, 1, 0, 0, 0))
                         .Aggregate(0m, (total, operation) =>
                                 operation.OperationType == MoneyOperation.Type.Debit
                                 ? total + operation.Amount
